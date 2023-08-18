@@ -4,6 +4,8 @@ The Timeline component for flowmap.gl, from [FlowmapBlue](https://github.com/Flo
 
 ## Use
 
+This package is published to GitHub's npm registry. Follow the instructions [here](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) on how to install packages from this registry.
+
 ```bash
 npm install @muskuloes/flowmap.gl-timeline@1.0.0
 ```
