@@ -1,0 +1,65 @@
+{
+  "name": "@muskuloes/flowmap.gl-timeline",
+  "author": "Victor Tuekam <tuekam@stat.uni-muenchen.de>",
+  "version": "1.0.0",
+  "description": "flowmap.gl timeline component library",
+  "main": "dist/cjs/index.js",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muskuloes/flowmap.gl-timeline.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/muskuloes"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muskuloes/flowmap.gl-timeline/issues"
+  },
+  "homepage": "https://github.com/muskuloes/flowmap.gl-timeline#readme",
+  "devDependencies": {
+    "@blueprintjs/core": "^4.20.2",
+    "@emotion/styled": "^11.11.0",
+    "@flowmap.gl/data": "8.0.0-alpha.25",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/d3-array": "^3.0.5",
+    "@types/d3-color": "^3.1.0",
+    "@types/d3-scale": "^4.0.3",
+    "@types/d3-time": "^3.0.0",
+    "@types/react": "^18.2.13",
+    "d3-array": "^3.2.4",
+    "d3-color": "^3.1.0",
+    "d3-scale": "^4.0.2",
+    "d3-time": "^3.1.0",
+    "mjolnir.js": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-use": "^17.4.0",
+    "rollup": "^3.27.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.2.13",
+    "@flowmap.gl/data": "8.0.0-alpha.25",
+    "d3-array": "^3.2.4",
+    "d3-color": "^3.1.0",
+    "d3-scale": "^4.0.2",
+    "d3-time": "^3.1.0",
+    "mjolnir.js": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-use": "^17.4.0"
+  },
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
